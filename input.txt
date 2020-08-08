@@ -1,0 +1,8 @@
+python main.py -mode preprocess \
+ -train_article -train_title -train_dataset_index \
+ -dev_article -dev_title -dev_dataset_index \
+ -test_article -test_title -test_dataset_index \
+ -train_token_file \
+ -dev_token_file \
+ -test_token_file \
+ -word_emb_file
